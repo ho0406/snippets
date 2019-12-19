@@ -1,0 +1,217 @@
+{
+    "[css]": {
+        "editor.minimap.enabled": true
+    },
+    "[json]": {
+        "editor.formatOnPaste": true,
+        "editor.minimap.enabled": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.tabSize": 2
+    },
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": false
+    },
+    "dateTime.customFormat": "D/M h:m",
+    "editor.fontFamily": "Fira Code, Monaco, 'Courier New', monospace",
+    "editor.minimap.enabled": false,
+    "editor.minimap.maxColumn": 60,
+    "editor.quickSuggestionsDelay": 5,
+    "editor.snippetSuggestions": "inline",
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "twig" : "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "eslint.options": {
+        "configFile": "/Users/kaihonho/eslintrc.json",
+        "ignorePattern": [
+            "public/",
+            "resource/assets/lib"
+        ]
+    },
+    "explorer.confirmDelete": true,
+    "extensions.ignoreRecommendations": false,
+    "files.exclude": {
+        "**/node_modules": false,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.watcherExclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+    },
+    "files.trimTrailingWhitespace": true,
+    "git.enableSmartCommit": true,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": false
+    },
+    "namespaceResolver.autoSort": false,
+    "php.suggest.basic": false,
+    "php.validate.run": "onSave",
+    "phpcs.standard": "PSR2",
+    "phpcs.ignorePatterns": [
+        "**/bootstrap/**",
+        "**/vendor/**",
+    ],
+    "projectManager.projectsLocation": "/Users/kaihonho/Workspaces",
+    "projectManager.cacheProjectsBetweenSessions" : true,
+    "projectManager.any.ignoredFolders": [
+        "node_modules",
+        "out",
+        "typings",
+        "test",
+        "node_modules",
+        "vendor",
+        "kiwiadscounter",
+        "bulk-ypa-rate-limit-backend",
+        "facebook-viral-plugin"
+    ],
+    "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+    "projectManager.groupList": true,
+    "projectManager.git.baseFolders": [
+        "/Users/kaihonho/Workspaces"
+    ],
+    "projectManager.vscode.baseFolders": [
+        "/Users/kaihonho/Workspaces"
+    ],
+    "search.exclude": {
+        "**/bower_components": true,
+        "**/node_modules": true,
+        "**/vendor": true,
+        "storage/framework": true,
+        "storage/log": true,
+        ".vscode/build": true,
+        ".vscode/design": true,
+    },
+    "search.useIgnoreFiles": false,
+    "window.restoreFullscreen": true,
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "zenMode.restore": true,
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "gitlens.keymap": "chorded",
+    "terminal.integrated.env.osx": {
+        "REMOTE" : "hon.vm",
+        "workspace" : "${workspaceFolder}",
+        "CODE_WORKSPACE" : "${workspaceFolderBasename}",
+        "XDEBUG_CONFIG": "idekey=vscode",
+        "ANDROID_HOME":"${HOME}/Library/Android/sdk",
+        "POWERLINE_ENABLE" : "true",
+        "XDG_CONFIG_DIRS": "${workspaceFolder}/.vscode"
+    },
+    "namespaceResolver.exclude": "**/node_modules/**",
+    "editor.wrappingIndent": "indent",
+    "php-docblocker.author": {
+        "name": "Hon",
+        "email": "Hon@techbeast.co"
+    },
+    "files.associations" : {
+        ".module": "php",
+        ".theme": "php",
+        ".env*": "dotenv",
+        "apple-app-site-association": "json",
+        "*.js": "javascriptreact",
+        "*.twig": "twig"
+    },
+    "breadcrumbs.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "docker.host": "172.16.1.2:2376",
+    "editor.multiCursorModifier": "alt",
+    "editor.renderControlCharacters": true,
+    "editor.suggestSelection": "first",
+    "git.autofetch": true,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "gitlens.views.repositories.files.layout": "tree",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "php.memoryLimit": "2048M",
+    "php.validate.enable": false,
+    "phpcs.enable": false,
+    "rest-client.enableTelemetry": false,
+    "rest-client.followredirect": false,
+    "rest-client.fontSize": 12,
+    "terminal.integrated.rendererType": "dom",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.fontLigatures": true,
+    "rest-client.fontWeight": "normal",
+    "terminal.integrated.fontWeightBold": "normal",
+    "spellright.documentTypes" : [
+        "markdown",
+        "latex",
+        "plaintext",
+        "php",
+        "html"
+    ],
+    "spellright.groupDictionaries": true,
+    "spellright.language": [
+        "en"
+    ],
+    "update.mode": "manual",
+    "workbench.iconTheme": "vscode-icons",
+    "workspaceExplorer.workspaceStorageDirectory": "/Users/kaihonho/Workspaces/workspaces",
+    "diffEditor.renderSideBySide": true,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "jest.autoEnable": false,
+    "javascript.referencesCodeLens.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.settings.useSplitJSON": true,
+    "gitlab.instanceUrl": "https://gitlab.techbeast.co",
+    "gitlab.showStatusBarLinks": false,
+    "gitlab.showMrStatusOnStatusBar": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.statusBar.enabled": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "rest-client.previewResponsePanelTakeFocus": false,
+    "rest-client.logLevel": "warn",
+    "rest-client.previewOption": "exchange",
+    "ego.power-tools": {
+        "commands": {
+            "rsync" : {
+                "button": {
+                    "text": "rsync ${workspaceName}",
+                    "color": "#f0f93b",
+                },
+                "if": "$v['remote_workspace'] || false",
+                "script": "cmd.js",
+                "options" : {
+                    "command" : "rsync",
+                    "args" : [
+                        "-rvtlh",
+                        "${workspaceRoot}/",
+                        "hon.vm2:${remote_workspace}",
+                        "--delete",
+                        "--exclude", ".git",
+                        "--exclude", "vendor",
+                        "--exclude", "node_modules",
+                        "--exclude", "storage"
+                    ]
+                }
+            }
+        }
+    },
+    "spellright.configurationScope": "user",
+    "intelephense.completion.maxItems": 50,
+    "intelephense.maxMemory": 1024,
+    "intelephense.trace.server": "messages",
+    "dart.flutterSdkPath": "/Users/kaihonho/bin/flutter",
+}
